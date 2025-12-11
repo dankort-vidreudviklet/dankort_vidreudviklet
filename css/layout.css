@@ -63,18 +63,23 @@ header{
   padding-block: 1rem;
 }
 
-.order, .dankort{
-  display: grid;
+.dankort{
+  display: block;
   justify-self: end;
   margin-right: 1rem;
 }
 
+.dk_tekst{
+  margin-left: 1.8em;
+}
+
 .indeximg2{
-  width: 90%;
+  width: 87%;
   height: auto;
 }
 
 /****** Fakta blok1 *****/
+
 .faktablok1 h1{
   text-align: center;
 }
@@ -89,15 +94,19 @@ header{
 }
 
 /****** Alt om points ******/
-.points_card_grid{
- display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+
+.din_profil_tekst{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  line-height: 60px;
 }
 
+
 .points_card_grid img{
-  width: 150%;
+  display: flex;
+  justify-self: end;
+  width: 20%;
 }
 
 /****** vidste du ******/
@@ -224,6 +233,7 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 
 .order{

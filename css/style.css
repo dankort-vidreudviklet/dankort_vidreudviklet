@@ -159,17 +159,17 @@ p {
   .faktablok {
     text-align: center;
     background-color: #dbe6f0;
-    padding: 3rem 2rem;
+    padding-top: 2rem;
   }
 
   .faktablok h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     font-size: 3rem;
   }
 
   .fakta-item {
-    width: 160px;
-    padding: 1rem 1.5rem;
+    width: 125px;
+    padding: 1rem;
     border-radius: 50px 50px 0 0; /* Runder toppen */
     color: white;
     display: flex;
@@ -193,15 +193,23 @@ p {
 
   .grøn {
     background-color: rgba(150, 172, 78, 1);
+    height: 75%;
+    margin-top: 100px;
   }
   .blå {
     background-color: rgba(63, 110, 138, 1);
+    height: 90%;
+    margin-top: 40px;
   }
   .rød {
     background-color: rgba(213, 0, 21, 1);
+    height: 63%;
+    margin-top: 148px;
   }
   .lyseblå {
     background-color: rgba(116, 164, 188, 1);
+    height: 78%;
+    margin-top: 88px;
   }
 
   /**** Hent som app ***/
@@ -245,31 +253,75 @@ p {
 
   /****** Alt om points ******/
 
-  .knap_pil {
-    width: 20%;
-    margin-left: auto;
+  .knap_pil_1 img {
+    height: 30%;
+   width: 30%;
+  }
+
+  .knap_pil_2 img {
+    height: 30%;
+   width: 100%;
   }
 
   .points_card {
     background-color: rgba(236, 236, 236, 1);
     border-radius: 2rem;
     padding: 20px 40px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
+
+  
 
   .points_img {
     width: 90%;
     display: block;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     margin-bottom: 0.8rem;
-    border-radius: 4rem;
+    border-radius: 2rem;
   }
 
   .points_card p {
     font-family: "Raleway", sans-serif;
     font-size: 1.4rem;
+  }
+
+  /**** faktaboks 2 ****/
+
+  .fakta-item1 {
+    width: 500px;
+    padding: 1rem;
+    border-radius: 50px 50px 0 0; /* Runder toppen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .fakta-item p{
+    color: rgba(247, 247, 247, 1);
+  }
+
+   .grøn1 {
+    background-color: rgba(150, 172, 78, 1);
+    height: 75.5%;
+    margin-top: 100px;
+  }
+  .blå1 {
+    background-color: rgba(63, 110, 138, 1);
+    height: 90%;
+    margin-top: 40px;
+  }
+  .rød1 {
+    background-color: rgba(213, 0, 21, 1);
+    height: 64.5%;
+    margin-top: 148px;
+  }
+  .lyseblå1 {
+    background-color: rgba(116, 164, 188, 1);
+    height: 78%;
+    margin-top: 88px;
   }
 
   /****** Vidste du ******/
@@ -294,28 +346,43 @@ p {
     align-items: center;
   }
 
-  .card-img {
-    width: 90%;
+  .card1 img {
+    width: 85%;
     border-radius: 40px;
     object-fit: cover;
+    margin-left: 2rem;
+  }
+
+  .card2 img {
+    width: 85%;
+    border-radius: 40px;
+    margin-top: -8rem;
+    margin-left: 2rem;
   }
 
   .vidstedu_boks {
     width: 70%;
     padding: 35px 40px;
     border-radius: 40px;
-    margin-top: -70px; /* overlapper billedet */
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     position: relative;
   }
 
   .blue {
     background: #dfeffc;
+    margin-left: 7rem;
+    margin-top: -12rem; /* overlapper billedet */
+
   }
 
   .green {
     background: #eef7c9;
+    margin-right: 6rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
   }
+
+
 
   h1 {
     margin: 0 0 15px 0;
