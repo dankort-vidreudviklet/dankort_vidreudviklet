@@ -114,7 +114,7 @@ p {
   nav.active .menu a {
     font-size: 24px;
   }
-  /* Gør indholdet bag burgermenuen slørret*/
+
   .menu-open .forside_indhold {
     opacity: 30%;
   }
@@ -479,6 +479,35 @@ p {
   a.min_profil_knap:hover {
     background-color: rgba(213, 0, 21, 1);
   }
+ 
+   /***** Challenges - MOBIL *****/
+
+  .challenges_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1400px;
+    gap: 30px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .mærker {
+    background-color: rgba(186, 209, 223, 1);
+    padding: 50px 30px;
+    border-radius: 35px;
+  }
+
+  .pointsbanner {
+    background-color: rgba(247, 248, 237, 1);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 6px 10px;
+    width: 82%;
+    margin-left: -1.9rem;
+    margin-top: -1rem;
+  }
+ 
   /***** footer - MOBIL *****/
 
   .footer_card {
@@ -879,6 +908,34 @@ p {
     margin-top: 5rem;
   }
 
+/*********** Challenges - DESKTOP ***********/
+
+    .challenges_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1400px;
+    gap: 30px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .mærker {
+    background-color: rgba(186, 209, 223, 1);
+    padding: 50px 30px;
+    border-radius: 35px;
+  }
+
+  .pointsbanner {
+    background-color: rgba(247, 248, 237, 1);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 6px 10px;
+    width: 50%;
+    margin-left: -1.9rem;
+    margin-top: -1rem;
+  }
+  
   /*********** footer - DESKTOP ***********/
 
   .footer_card {
