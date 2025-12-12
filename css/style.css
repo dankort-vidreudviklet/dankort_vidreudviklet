@@ -32,21 +32,20 @@ p {
 
   /**** Burgermenu ******/
 
- .menu {
-  max-height: 0;
-  overflow: hidden;
-  list-style: none;
-  transition: max-height 2s ease;
-  position: absolute;
-  top: 12%;
-  left: 0;
-  width: 100%;
-  background-color: rgba(207, 222, 232, 1);
-  opacity: 95%;
-  z-index: 5;
-  text-align: end;
-}
-
+  .menu {
+    max-height: 0;
+    overflow: hidden;
+    list-style: none;
+    transition: max-height 2s ease;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(207, 222, 232, 1);
+    opacity: 95%;
+    z-index: 5;
+    text-align: end;
+  }
 
   nav.active .menu {
     display: block;
@@ -60,16 +59,12 @@ p {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     z-index: 5;
     text-align: end;
-      max-height: 100vh;  /* DENNE MANGLEDE! */
-
-
+    max-height: 100vh; /* DENNE MANGLEDE! */
   }
   .burger {
     display: block;
     padding-top: 10px;
     justify-self: end;
-
-
   }
   header {
     display: flex;
@@ -81,17 +76,16 @@ p {
   }
 
   .burger .line {
-     width: 40px;
-  height: 4px;
-  background-color: rgba(247, 247, 247, 1);
-  margin: 6px 0;
-  transition: 0.3s;
-  border-radius: 10px;
+    width: 40px;
+    height: 4px;
+    background-color: rgba(247, 247, 247, 1);
+    margin: 6px 0;
+    transition: 0.3s;
+    border-radius: 10px;
   }
 
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
-
   }
 
   .burger.active .line:nth-child(2) {
@@ -110,7 +104,7 @@ p {
     font-weight: 650;
     font-size: 1.7rem;
   }
-  
+
   nav.active .menu li {
     margin: 10px 20px;
   }
@@ -127,7 +121,6 @@ p {
     margin-left: -50px;
     margin-right: -40px;
   }
-
 
   /****** Body *****/
   h1 {
@@ -151,6 +144,8 @@ p {
     cursor: pointer;
     margin-top: 10px;
   }
+
+  /******* faktablok 1 mobil ********/
 
   .faktablok1 {
     background-color: rgba(207, 222, 232, 1);
@@ -212,7 +207,7 @@ p {
     margin-top: 88px;
   }
 
-  /**** Hent som app ***/
+  /**** Hent som app mobil ***/
   .hentsomapp {
     background-color: rgba(207, 222, 232, 1);
     padding-left: 2rem;
@@ -251,16 +246,16 @@ p {
     margin-top: 10px;
   }
 
-  /****** Alt om points ******/
+  /****** Alt om points mobil ******/
 
   .knap_pil_1 img {
     height: 30%;
-   width: 30%;
+    width: 30%;
   }
 
   .knap_pil_2 img {
     height: 30%;
-   width: 100%;
+    width: 100%;
   }
 
   .points_card {
@@ -270,8 +265,6 @@ p {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-
-  
 
   .points_img {
     width: 90%;
@@ -287,7 +280,7 @@ p {
     font-size: 1.4rem;
   }
 
-  /**** faktaboks 2 ****/
+  /******* faktablok 2 mobil ********/
 
   .fakta-item1 {
     width: 500px;
@@ -299,11 +292,11 @@ p {
     gap: 1rem;
   }
 
-  .fakta-item p{
+  .fakta-item p {
     color: rgba(247, 247, 247, 1);
   }
 
-   .grøn1 {
+  .grøn1 {
     background-color: rgba(150, 172, 78, 1);
     height: 75.5%;
     margin-top: 100px;
@@ -324,7 +317,7 @@ p {
     margin-top: 88px;
   }
 
-  /****** Vidste du ******/
+  /****** Vidste du mobil ******/
 
   p {
     font-family: "Raleway", sans-serif;
@@ -372,7 +365,6 @@ p {
     background: #dfeffc;
     margin-left: 7rem;
     margin-top: -12rem; /* overlapper billedet */
-
   }
 
   .green {
@@ -381,8 +373,6 @@ p {
     margin-left: 2rem;
     margin-top: 5rem;
   }
-
-
 
   h1 {
     margin: 0 0 15px 0;
@@ -398,7 +388,7 @@ p {
   /*************** footer mobil *********Ø*****/
   /***** Belønninger ******/
 
-    .belonning_container{
+  .belonning_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 1400px;
@@ -408,13 +398,13 @@ p {
     padding-right: 2rem;
   }
 
-  .mærker{
+  .mærker {
     background-color: rgba(186, 209, 223, 1);
     padding: 50px 30px;
     border-radius: 35px;
   }
 
-  .pointsbanner{
+  .pointsbanner {
     background-color: rgba(247, 248, 237, 1);
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -424,23 +414,22 @@ p {
     margin-top: -1rem;
   }
 
-  .tekstblok{
+  .tekstblok {
     margin-top: 2rem;
   }
 
-  .tekstblok h2{
+  .tekstblok h2 {
     font-family: "Raleway", sans-serif;
     color: rgba(33, 48, 63, 1);
-
   }
 
-  .tekstblok h4{
+  .tekstblok h4 {
     font-family: "Raleway", sans-serif;
     color: rgba(33, 48, 63, 1);
     font-weight: normal;
   }
 
-.min_profil_knap{ 
+  .min_profil_knap {
     background-color: rgba(230, 29, 39, 1);
     color: rgba(247, 247, 247, 1);
     border: none;
@@ -452,11 +441,11 @@ p {
     cursor: pointer;
     margin-top: 10px;
     text-decoration: none;
-  }  
-  a.min_profil_knap:hover {  
-    background-color: rgba(213, 0, 21, 1);    
   }
-  /***** footer *****/
+  a.min_profil_knap:hover {
+    background-color: rgba(213, 0, 21, 1);
+  }
+  /***** footer mobil *****/
 
   .footer_card {
     background-color: rgba(217, 217, 217, 1);
@@ -519,7 +508,7 @@ p {
     text-decoration: underline;
   }
 
-  .menu{
+  .menu {
     display: flex;
     justify-content: space-between;
     padding-right: 2rem;
@@ -540,31 +529,31 @@ p {
     line-height: 3rem;
   }
 
-  .blok2{
+  .blok2 {
     margin-left: 10rem;
     margin-top: 3rem;
   }
 
-  .blok2 h1{
+  .blok2 h1 {
     font-size: 5rem;
   }
 
-  .blok2 h2{
+  .blok2 h2 {
     font-size: 2.5rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
   }
 
-  .order{
+  .order {
     margin-left: 4.5rem;
     margin-top: 3rem;
   }
 
-  .order h1{
+  .order h1 {
     font-size: 5rem;
   }
 
-  .order h2{
+  .order h2 {
     font-size: 2.5rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -583,7 +572,7 @@ p {
     margin-top: 10px;
   }
 
-/******** Vidste du blok 1 ******/
+  /******** Vidste du blok 1 ******/
 
   .faktablok1 {
     background-color: rgba(207, 222, 232, 1);
@@ -595,7 +584,7 @@ p {
     padding-top: 2rem;
   }
 
-  .faktablok p{
+  .faktablok p {
     font-size: 1.8rem;
     color: rgba(247, 247, 247, 1);
   }
@@ -654,11 +643,45 @@ p {
 
   /***** alt om points *****/
 
-  .altompoint{
-    
+  .din_profil_tekst {
+    display: none;
+  }
+  .din_profil_tekst_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 5rem;
   }
 
-    .belonning_container{
+  .knap_pil_1 img {
+    height: 30%;
+    width: 20%;
+  }
+
+  .points_card {
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 2rem;
+    padding: 20px 40px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 25%;
+  }
+
+  .points_img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 2rem;
+  }
+
+  .points_card p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .belonning_container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     max-width: 1400px;
@@ -668,13 +691,13 @@ p {
     padding-right: 2rem;
   }
 
-  .mærker{
+  .mærker {
     background-color: rgba(186, 209, 223, 1);
     padding: 50px 30px;
     border-radius: 35px;
   }
 
-  .pointsbanner{
+  .pointsbanner {
     background-color: rgba(247, 248, 237, 1);
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -684,19 +707,160 @@ p {
     margin-top: -1rem;
   }
 
-  .tekstblok{
+  .tekstblok {
     margin-top: 2rem;
   }
 
-  .tekstblok h2{
+  .tekstblok h2 {
     font-family: "Raleway", sans-serif;
     color: rgba(33, 48, 63, 1);
-
   }
 
-  .tekstblok h4{
+  .tekstblok h4 {
     font-family: "Raleway", sans-serif;
     color: rgba(33, 48, 63, 1);
     font-weight: normal;
+  }
+
+  /**** Vidste du blok 2 ****/
+
+  .fakta-item1 {
+    width: 500px;
+    padding: 1rem;
+    border-radius: 50px 50px 0 0; /* Runder toppen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .fakta-item p {
+    color: rgba(247, 247, 247, 1);
+  }
+
+  .grøn1 {
+    background-color: rgba(150, 172, 78, 1);
+    height: 75.5%;
+    margin-top: 100px;
+  }
+  .blå1 {
+    background-color: rgba(63, 110, 138, 1);
+    height: 90%;
+    margin-top: 40px;
+  }
+  .rød1 {
+    background-color: rgba(213, 0, 21, 1);
+    height: 64.5%;
+    margin-top: 148px;
+  }
+  .lyseblå1 {
+    background-color: rgba(116, 164, 188, 1);
+    height: 78%;
+    margin-top: 88px;
+  }
+
+  /**** Vidste du at... hover desktop ****/
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.4rem;
+  }
+
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(225, 225, 225, 1);
+    background-image: url(../img/logo_bg.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .card {
+    position: relative;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1 img {
+    width: 80%;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+
+  .card2 img {
+    display: grid;
+    width: 70%;
+    border-radius: 40px;
+    margin-left: 10rem;
+  }
+
+  .vidstedu_boks {
+    width: 70%;
+    padding: 35px 40px;
+    border-radius: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .blue {
+    display: none;
+    background: #dfeffc;
+    margin-left: 7rem;
+    margin-top: -12rem; /* overlapper billedet */
+  }
+
+  .green {
+    display: none;
+    background: #eef7c9;
+    margin-right: 6rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  /***** footer desktop *****/
+
+  .footer_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 2rem;
+    padding: 30px 60px;
+    width: 100%;
+    height: 100%;
+  }
+  .footer_card h3 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 3rem;
+  }
+
+  .footer_card p {
+    line-height: 3rem;
+  }
+  .footer_card li {
+    margin-left: 3rem;
+  }
+  .footer_card p:hover {
+    text-decoration: underline;
+  }
+
+  .footer_card2 {
+    grid-column: 2;
+    background-color: rgba(226, 30, 39, 1);
+    border-radius: 2rem;
+    padding: 40px 60px;
+    height: 100%;
+    width: 80%;
+  }
+
+  .footer_card2 h1 {
+    color: rgba(247, 247, 247, 1);
+    padding-top: 9rem;
+    font-size: xx-large;
+  }
+
+  .footer_card2 img {
+    width: 35%;
   }
 }
