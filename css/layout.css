@@ -16,6 +16,12 @@ img {
   margin-right: 15px;
 }
 
+.kobnu_knap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
 /***************************************************** MOBIL - starter her ***********************************************/
 @media screen and (max-width: 800px) {
   .menu {
@@ -167,8 +173,9 @@ img {
     width: 70%;
     height: auto;
     float: right;
-    margin-right: -2rem;
+    margin-left: 150px;
     border-radius: 2rem;
+    margin-top: 55px;
   }
 
   .img_ps4 {
