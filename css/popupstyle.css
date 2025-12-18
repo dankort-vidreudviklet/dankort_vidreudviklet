@@ -257,7 +257,7 @@
 }
 
 /*** kanppen der trigger popup style ***/
-.kobnu_knap{
+.kobnu_knap {
   padding: 12px 24px;
   background-color: #74a4bc;
   color: white;
@@ -268,13 +268,17 @@
   border: transparent;
 }
 
-.kobnu_knap:disabled{
+.kobnu_knap:hover {
+  background-color: #3f6e8a;
+}
+
+.kobnu_knap:disabled {
   opacity: 0.5;
 }
 
 .trigger-btn {
   padding: 12px 24px;
-  background-color: #74a4bc;
+  background-color: #96ac4e;
   color: white;
   border-radius: 35px;
   cursor: pointer;
@@ -283,7 +287,7 @@
 }
 
 .trigger-btn:hover {
-  background-color: #3f6e8a;
+  background-color: #a5b764;
 }
 
 /*** popuo desktop formatet style ***/
