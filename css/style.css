@@ -317,6 +317,7 @@ p {
     margin-bottom: -10rem;
   }
 
+
   video {
     width: 80%;
     height: 60%;
@@ -1002,6 +1003,7 @@ p {
   .footer_card h3 {
     font-weight: bold;
     margin-top: 40px;
+    
   }
 
   .footer_card p {
@@ -1032,7 +1034,7 @@ p {
   }
 
   footer{
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 
   /********** tilbage til top knap - DESKTOP ***********/
@@ -1231,6 +1233,11 @@ p {
     height: 100vh; /* fylder hele skærmhøjden */
   }
 
+  .video_container{
+    position: relative;
+    display: inline-block;
+  }
+
   video {
     width: 70%;
     height: auto;
@@ -1246,7 +1253,7 @@ p {
     border-bottom-right-radius: 35px;
     width: 475px;
     margin-left: 13rem;
-    margin-top: 3rem;
+    top: 3rem;
     z-index: 10;
     font-size: 44px;
   }
@@ -2129,7 +2136,7 @@ p {
   .footer_card h3 {
     font-weight: bold;
     margin-top: 40px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-left: 3rem;
     font-size: 30px;
   }
@@ -2167,7 +2174,7 @@ p {
   }
 
 footer{
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
