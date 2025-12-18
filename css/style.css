@@ -1031,6 +1031,10 @@ p {
     width: 22%;
   }
 
+  footer{
+    margin-bottom: 2rem;
+  }
+
   /********** tilbage til top knap - DESKTOP ***********/
 
   #myBtn {
@@ -2160,6 +2164,10 @@ p {
 
   .footer_card2 img {
     width: 35%;
+  }
+
+footer{
+    margin-bottom: 2rem;
   }
 }
 
