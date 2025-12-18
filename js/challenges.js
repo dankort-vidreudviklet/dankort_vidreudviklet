@@ -60,21 +60,21 @@ container.addEventListener("click", (e) => {
   const description = btn.dataset.description || "";
 
   // Sæt tekst ind i popup
-  document.getElementById("popup-title").textContent = title;
-  document.getElementById("popup-description").textContent = description;
+  document.getElementById("popup-title1").textContent = title;
+  document.getElementById("popup-description1").textContent = description;
 
   // Åbn popup
-  document.getElementById("offer-toggle").checked = true;
+  document.getElementById("offer-toggle1").checked = true;
 });
 
 // --- Popup LUK: via kryds-knap ---
-document.getElementById("close-btn").addEventListener("click", () => {
-  document.getElementById("offer-toggle").checked = false;
+document.getElementById("close-btn1").addEventListener("click", () => {
+  document.getElementById("offer-toggle1").checked = false;
 });
 
 // --- Popup LUK: klik på overlay udenfor indholdet ---
-document.getElementById("popup-overlay").addEventListener("click", (e) => {
-  if (e.target.id === "popup-overlay") {
-    document.getElementById("offer-toggle").checked = false;
+document.getElementById("popup-overlay1").addEventListener("click", (e) => {
+  if (e.target.id === "popup-overlay1") {
+    document.getElementById("offer-toggle1").checked = false;
   }
 });

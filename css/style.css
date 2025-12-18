@@ -1148,7 +1148,7 @@ p {
 
   ul {
     list-style-type: disc;
-    padding-left: 12.5rem;
+    padding-left: 3rem;
     margin-top: -3rem;
   }
 
@@ -1157,7 +1157,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-size: 1.7rem;
     color: rgba(33, 48, 63, 1);
-    line-height: 4rem;
+    line-height: 3rem;
   }
 
   .hentsomapp_knap {
